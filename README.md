@@ -32,7 +32,7 @@ VisFemale[VisFemale['Average'] >= 60]
 ````
 ## Category Average Visualization
 #### a & b.) The goal is to get the mean of Average for each category and then compare them in a plot. To do this, I used ".groupby" to sort each into their own categories, "as_index=False" to keep them as dateframes, and ".mean" to get the mean
-#### c & d.) For this problem, the objective was to create visualizations to display Track, Gender, and Hometown and the Average for each. The visualizations were created using bar charts, which display the average grade for each category within these features. Using groupby() to sort the information according to track, gender, and hometown and .mean() to get the average of the sorted data. And plt.figure to get the size of the figure, plt. title to give the graph a title, plt.ylabel to add a label on the y-axis, .sharey=True to line up their y-axis, axes[] to place them in a row, and .bar to plot it as a bar graph.
+#### c & d.) For this problem, the objective was to create visualizations to display Track, Gender, and Hometown and the Average for each. The visualizations were created using bar charts, which display the average grade for each category within these features. Using groupby() to sort the information according to track, gender, and hometown and .mean() to get the average of the sorted data. And plt.figure to get the size of the figure, plt. title to give the graph a title, plt.ylabel to add a label on the y-axis, .sharey=True to line up their y-axis, axes[] to place them in a row, and .bar to plot it as a bar graph. Then write the highest sample mean for each.
 #### Here's the code that was used:
 ````
 import matplotlib.pyplot as plt
@@ -65,4 +65,8 @@ axes[2].set_title('Mean Average by Hometown')
 axes[2].set_xlabel('Hometown')
 
 plt.show()
+
+Track Highest: Communication
+Gender Highest: Male
+Hometown Highest: Luzon
 ````
