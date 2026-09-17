@@ -1,7 +1,7 @@
 # Pelicia-Mikhail-Anthony-Bennet-D.R.---PA_4
 ### Name: PELICIA, Mikhail Anthony Bennet D.R.
 ### Section: 2ECE-C
-### Date Submitted: 03/09/2026
+### Date Submitted: 17/09/2026
 
 ## Problem A. Visayas Communication Datarame
 #### This problem asks you to create a data frame called "VisComm" with only those whose Hometown is Visayas and whose Track is Communication based on the boards2 Excel file. To do this, I first loaded the Excel file into a data frame called "ece". Then I calculated the average for "Math, Electronics, GEAS, and Communication which will be used or the other dataframes. And to get the information for the specific Track and Hometown, I used ".loc" 
